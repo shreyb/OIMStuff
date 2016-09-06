@@ -1,2 +1,2 @@
 Sample command:
-python OIMTopology.py facility.xml resource_group.xml
+python OIMTopology_NEW.py resource_group_TEST.xml resource_group_TEST.xml 
