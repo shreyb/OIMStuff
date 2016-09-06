@@ -1,0 +1,2 @@
+Sample command:
+python OIMTopology.py facility.xml resource_group.xml

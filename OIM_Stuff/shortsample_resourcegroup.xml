@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+If you are going to use this XML for your production service, please register this URL at
+GOC in order for us to ensure that any changes to this XML will not break your service.
+https://spreadsheets.google.com/viewform?hl=en&formkey=dE8xYjUtMk9zZlQ3WktMa2lTWV9MOHc6MA
+
+This XML was generated via following MyOSG page:
+http://myosg.grid.iu.edu/rgsummary/?summary_attrs_showhierarchy=on&summary_attrs_showwlcg=on&summary_attrs_showservice=on&summary_attrs_showfqdn=on&summary_attrs_showvoownership=on&summary_attrs_showcontact=on&gip_status_attrs_showtestresults=on&downtime_attrs_showpast=&account_type=cumulative_hours&ce_account_type=gip_vo&se_account_type=vo_transfer_volume&bdiitree_type=total_jobs&bdii_object=service&bdii_server=is-osg&start_type=7daysago&start_date=08%2F31%2F2016&end_type=now&end_date=08%2F31%2F2016&all_resources=on&facility_sel%5B%5D=10009&gridtype=on&gridtype_1=on&active=on&active_value=1&disable_value=1
+-->
+<!--NOTE: Email address and phone number of contacts are displayed only to authorized users who have there DN loaded in their web-browser or wget/curl type web client, and are registered in OIM with appropriate authorization level(s).-->
+<ResourceSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://myosg.grid.iu.edu/schema/rgsummary.xsd">
+	<ResourceGroup>
+		<GridType>OSG Production Resource</GridType>
+		<GroupID>331</GroupID>
+		<GroupName>Advanced Technology Lab</GroupName>
+		<Disable>False</Disable>
+		<Facility>
+			<ID>10121</ID>
+			<Name>University of Alabama at Birmingham</Name>
+		</Facility>
+		<Site>
+			<ID>10165</ID>
+			<Name>UAB Research Computing</Name>
+		</Site>
+		<SupportCenter>
+			<ID>53</ID>
+			<Name>SURAgrid GOC</Name>
+		</SupportCenter>
+		<Resources>
+			<Resource>
+				<ID>446</ID>
+				<Name>ATLab testing node</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>1</ID>
+						<Name>CE</Name>
+						<Description>Compute Element</Description>
+						<Details>
+							<hidden>True</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>rocksvmfe.uabgrid.uab.edu</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>SURAgrid</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=SURAgrid(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>William M Bradley</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>William M Bradley</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>William M Bradley</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+		</Resources>
+	</ResourceGroup>
+	<ResourceGroup>
+		<GridType>OSG Production Resource</GridType>
+		<GroupID>1</GroupID>
+		<GroupName>AGLT2</GroupName>
+		<Disable>False</Disable>
+		<Facility>
+			<ID>10001</ID>
+			<Name>University of Michigan</Name>
+		</Facility>
+		<Site>
+			<ID>10054</ID>
+			<Name>AGLT2</Name>
+		</Site>
+		<SupportCenter>
+			<ID>29</ID>
+			<Name>USATLAS</Name>
+		</SupportCenter>
+		<Resources>
+			<Resource>
+				<ID>250</ID>
+				<Name>AGLT2_CE_2</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>1</ID>
+						<Name>CE</Name>
+						<Description>Compute Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+							<sam_uri/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>gate02.grid.umich.edu</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>20</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>80</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:20,80&amp;chs=280x65&amp;chl=ATLAS(20%)|Other(80%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>
+					<InteropBDII>True</InteropBDII>
+					<LDAPURL>ldap://is.grid.iu.edu:2180/mds-vo-name=AGLT2,o=grid</LDAPURL>
+					<InteropMonitoring>True</InteropMonitoring>
+					<InteropAccounting>True</InteropAccounting>
+					<AccountingName>US-AGLT2</AccountingName>
+					<KSI2KMin>0</KSI2KMin>
+					<KSI2KMax>100</KSI2KMax>
+					<!-- in TB -->
+					<StorageCapacityMin>0</StorageCapacityMin>
+					<!-- in TB -->
+					<StorageCapacityMax>0</StorageCapacityMax>
+					<HEPSPEC>0</HEPSPEC>
+					<APELNormalFactor>0</APELNormalFactor>
+					<!-- in TB -->
+					<TapeCapacity/>
+				</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Miscellaneous Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>175</ID>
+				<Name>AGLT2_SE</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>3</ID>
+						<Name>SRMv2</Name>
+						<Description>SRM V2 Storage Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>head01.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>80</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>20</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:80,20&amp;chs=280x65&amp;chl=ATLAS(80%)|Other(20%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>
+					<InteropBDII>True</InteropBDII>
+					<LDAPURL>ldap://is.grid.iu.edu:2180/mds-vo-name=AGLT2,o=grid</LDAPURL>
+					<InteropMonitoring>True</InteropMonitoring>
+					<InteropAccounting>True</InteropAccounting>
+					<AccountingName>US-AGLT2</AccountingName>
+					<KSI2KMin>0</KSI2KMin>
+					<KSI2KMax>0</KSI2KMax>
+					<!-- in TB -->
+					<StorageCapacityMin>3712.6</StorageCapacityMin>
+					<!-- in TB -->
+					<StorageCapacityMax>3712.6</StorageCapacityMax>
+					<HEPSPEC>0</HEPSPEC>
+					<APELNormalFactor>0</APELNormalFactor>
+					<!-- in TB -->
+					<TapeCapacity/>
+				</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Miscellaneous Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Benjeman J. Meekhof</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Tertiary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>547</ID>
+				<Name>AGLT2_SL6</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>1</ID>
+						<Name>CE</Name>
+						<Description>Compute Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+							<sam_uri/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>gate04.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>
+					<InteropBDII>True</InteropBDII>
+					<LDAPURL>ldap://is.grid.iu.edu:2180/mds-vo-name=AGLT2,o=grid</LDAPURL>
+					<InteropMonitoring>True</InteropMonitoring>
+					<InteropAccounting>True</InteropAccounting>
+					<AccountingName>US-AGLT2</AccountingName>
+					<KSI2KMin>20204</KSI2KMin>
+					<KSI2KMax>20204</KSI2KMax>
+					<!-- in TB -->
+					<StorageCapacityMin>0</StorageCapacityMin>
+					<!-- in TB -->
+					<StorageCapacityMax>0</StorageCapacityMax>
+					<HEPSPEC>80817</HEPSPEC>
+					<APELNormalFactor>9.83</APELNormalFactor>
+					<!-- in TB -->
+					<TapeCapacity/>
+				</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Miscellaneous Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>677</ID>
+				<Name>AGLT2-squid</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>138</ID>
+						<Name>Squid</Name>
+						<Description>Generic squid service</Description>
+						<Details/>
+					</Service>
+				</Services>
+				<FQDN>squid.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Miscellaneous Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Benjeman J. Meekhof</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>586</ID>
+				<Name>US-AGLT2_MSU BW</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>130</ID>
+						<Name>net.perfSONAR.Bandwidth</Name>
+						<Description>PerfSonar Bandwidth monitoring node</Description>
+						<Details>
+							<endpoint>psmsu02.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psmsu02.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>585</ID>
+				<Name>US-AGLT2_MSU LAT</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>131</ID>
+						<Name>net.perfSONAR.Latency</Name>
+						<Description>PerfSonar Latency monitoring node</Description>
+						<Details>
+							<endpoint>psmsu01.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psmsu01.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>584</ID>
+				<Name>US-AGLT2_UM BW</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>130</ID>
+						<Name>net.perfSONAR.Bandwidth</Name>
+						<Description>PerfSonar Bandwidth monitoring node</Description>
+						<Details>
+							<endpoint>psum02.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psum02.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>583</ID>
+				<Name>US-AGLT2_UM LAT</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>131</ID>
+						<Name>net.perfSONAR.Latency</Name>
+						<Description>PerfSonar Latency monitoring node</Description>
+						<Details>
+							<endpoint>psum01.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psum01.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+		</Resources>
+	</ResourceGroup>
+	<ResourceGroup>
+		<GridType>OSG Production Resource</GridType>
+		<GroupID>351</GroupID>
+		<GroupName>AGLT2_TEST</GroupName>
+		<Disable>False</Disable>
+		<Facility>
+			<ID>10001</ID>
+			<Name>University of Michigan</Name>
+		</Facility>
+		<Site>
+			<ID>10054</ID>
+			<Name>AGLT2</Name>
+		</Site>
+		<SupportCenter>
+			<ID>29</ID>
+			<Name>USATLAS</Name>
+		</SupportCenter>
+		<Resources>
+			<Resource>
+				<ID>478</ID>
+				<Name>AGLT2_TEST_CE</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>1</ID>
+						<Name>CE</Name>
+						<Description>Compute Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>gate03.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>
+					<InteropBDII>True</InteropBDII>
+					<LDAPURL>ldap://is.grid.iu.edu:2180/mds-vo-name=AGLT2_TEST,o=grid</LDAPURL>
+					<InteropMonitoring>False</InteropMonitoring>
+					<InteropAccounting>False</InteropAccounting>
+					<AccountingName/>
+					<KSI2KMin>100</KSI2KMin>
+					<KSI2KMax>200</KSI2KMax>
+					<!-- in TB -->
+					<StorageCapacityMin>1</StorageCapacityMin>
+					<!-- in TB -->
+					<StorageCapacityMax>1</StorageCapacityMax>
+					<HEPSPEC>85</HEPSPEC>
+					<APELNormalFactor>0</APELNormalFactor>
+					<!-- in TB -->
+					<TapeCapacity>0</TapeCapacity>
+				</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Miscellaneous Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Bob Ball</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>711</ID>
+				<Name>US-AGLT2_MSU BW(TB)</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>130</ID>
+						<Name>net.perfSONAR.Bandwidth</Name>
+						<Description>PerfSonar Bandwidth monitoring node</Description>
+						<Details>
+							<endpoint>psmsu06.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psmsu06.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>705</ID>
+				<Name>US-AGLT2_MSU LAT(TB)</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>131</ID>
+						<Name>net.perfSONAR.Latency</Name>
+						<Description>PerfSonar Latency monitoring node</Description>
+						<Details>
+							<endpoint>psmsu05.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psmsu05.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Philippe Laurens</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>668</ID>
+				<Name>US-AGLT2_UM BW(TB)</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>130</ID>
+						<Name>net.perfSONAR.Bandwidth</Name>
+						<Description>PerfSonar Bandwidth monitoring node</Description>
+						<Details>
+							<endpoint>psum06.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psum06.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>667</ID>
+				<Name>US-AGLT2_UM LAT(TB)</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>131</ID>
+						<Name>net.perfSONAR.Latency</Name>
+						<Description>PerfSonar Latency monitoring node</Description>
+						<Details>
+							<endpoint>psum05.aglt2.org</endpoint>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>psum05.aglt2.org</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>90</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<Ownership>
+						<Percent>10</Percent>
+						<VO>(Other)</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:90,10&amp;chs=280x65&amp;chl=ATLAS(90%)|Other(10%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Shawn McKee</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+		</Resources>
+	</ResourceGroup>
+	<ResourceGroup>
+		<GridType>OSG Production Resource</GridType>
+		<GroupID>283</GroupID>
+		<GroupName>ANLASC</GroupName>
+		<Disable>False</Disable>
+		<Facility>
+			<ID>10089</ID>
+			<Name>ANL</Name>
+		</Facility>
+		<Site>
+			<ID>10122</ID>
+			<Name>ANL ASC</Name>
+		</Site>
+		<SupportCenter>
+			<ID>50</ID>
+			<Name>USATLAS_Tier3</Name>
+		</SupportCenter>
+		<Resources>
+			<Resource>
+				<ID>437</ID>
+				<Name>ANL-ATLAS-GRIDFTP1</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>5</ID>
+						<Name>GridFtp</Name>
+						<Description>GridFtp Storage Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override>atlas8.hep.anl.gov:2811</uri_override>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>atlasgridftp.hep.anl.gov</FQDN>
+				<FQDNAliases>
+					<FQDNAlias>atlasgridftp1.hep.anl.gov</FQDNAlias>
+				</FQDNAliases>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>
+					<InteropBDII>True</InteropBDII>
+					<LDAPURL>ldap://is.grid.iu.edu:2180/mds-vo-name=ANLASC,o=grid</LDAPURL>
+					<InteropMonitoring>False</InteropMonitoring>
+					<InteropAccounting>False</InteropAccounting>
+					<AccountingName/>
+					<KSI2KMin>0</KSI2KMin>
+					<KSI2KMax>0</KSI2KMax>
+					<!-- in TB -->
+					<StorageCapacityMin>0.5</StorageCapacityMin>
+					<!-- in TB -->
+					<StorageCapacityMax>19</StorageCapacityMax>
+					<HEPSPEC>0</HEPSPEC>
+					<APELNormalFactor>0</APELNormalFactor>
+					<!-- in TB -->
+					<TapeCapacity>0</TapeCapacity>
+				</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>747</ID>
+				<Name>ANL-ATLAS-SE</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>3</ID>
+						<Name>SRMv2</Name>
+						<Description>SRM V2 Storage Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+					<Service>
+						<ID>5</ID>
+						<Name>GridFtp</Name>
+						<Description>GridFtp Storage Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>atlasgridftp1.hep.anl.gov</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>714</ID>
+				<Name>ANLASC_RUCIO</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>5</ID>
+						<Name>GridFtp</Name>
+						<Description>GridFtp Storage Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>rucio01.hep.anl.gov</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>526</ID>
+				<Name>ANLASC-CE</Name>
+				<Active>True</Active>
+				<Disable>True</Disable>
+				<Services>
+					<Service>
+						<ID>1</ID>
+						<Name>CE</Name>
+						<Description>Compute Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>atlasce.hep.anl.gov</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>356</ID>
+				<Name>ANLASC-SE</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>3</ID>
+						<Name>SRMv2</Name>
+						<Description>SRM V2 Storage Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+					<Service>
+						<ID>5</ID>
+						<Name>GridFtp</Name>
+						<Description>GridFtp Storage Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>atlasgridftp02.hep.anl.gov</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>
+					<InteropBDII>True</InteropBDII>
+					<LDAPURL>ldap://is.grid.iu.edu:2180/mds-vo-name=ANLASC,o=grid</LDAPURL>
+					<InteropMonitoring>True</InteropMonitoring>
+					<InteropAccounting>False</InteropAccounting>
+					<AccountingName/>
+					<KSI2KMin>0</KSI2KMin>
+					<KSI2KMax>0</KSI2KMax>
+					<!-- in TB -->
+					<StorageCapacityMin>1</StorageCapacityMin>
+					<!-- in TB -->
+					<StorageCapacityMax>2</StorageCapacityMax>
+					<HEPSPEC>0</HEPSPEC>
+					<APELNormalFactor>0</APELNormalFactor>
+					<!-- in TB -->
+					<TapeCapacity>0</TapeCapacity>
+				</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>453</ID>
+				<Name>ANLASC-squid</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>138</ID>
+						<Name>Squid</Name>
+						<Description>Generic squid service</Description>
+						<Details/>
+					</Service>
+				</Services>
+				<FQDN>squid.hep.anl.gov</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+		</Resources>
+	</ResourceGroup>
+	<ResourceGroup>
+		<GridType>OSG Production Resource</GridType>
+		<GroupID>428</GroupID>
+		<GroupName>Arizona</GroupName>
+		<Disable>False</Disable>
+		<Facility>
+			<ID>10144</ID>
+			<Name>University of Arizona</Name>
+		</Facility>
+		<Site>
+			<ID>10207</ID>
+			<Name>Arizona Tier 3</Name>
+		</Site>
+		<SupportCenter>
+			<ID>50</ID>
+			<Name>USATLAS_Tier3</Name>
+		</SupportCenter>
+		<Resources>
+			<Resource>
+				<ID>768</ID>
+				<Name>Arizona Squid</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>138</ID>
+						<Name>Squid</Name>
+						<Description>Generic squid service</Description>
+						<Details/>
+					</Service>
+				</Services>
+				<FQDN>atlt3gm.physics.arizona.edu</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Security Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+			<Resource>
+				<ID>745</ID>
+				<Name>Arizona_CE</Name>
+				<Active>True</Active>
+				<Disable>False</Disable>
+				<Services>
+					<Service>
+						<ID>1</ID>
+						<Name>CE</Name>
+						<Description>Compute Element</Description>
+						<Details>
+							<hidden>False</hidden>
+							<uri_override/>
+							<sam_uri>htcondor://atlt3gm.physics.arizona.edu</sam_uri>
+						</Details>
+					</Service>
+				</Services>
+				<FQDN>atlt3gm.physics.arizona.edu</FQDN>
+				<FQDNAliases/>
+				<VOOwnership>
+					<Ownership>
+						<Percent>100</Percent>
+						<VO>ATLAS</VO>
+					</Ownership>
+					<ChartURL>http://chart.apis.google.com/chart?chco=00cc00&amp;cht=p3&amp;chd=t:100&amp;chs=280x65&amp;chl=ATLAS(100%)</ChartURL>
+				</VOOwnership>
+				<WLCGInformation>(Information not available)</WLCGInformation>
+				<ContactLists>
+					<ContactList>
+						<ContactType>Submitter Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Primary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Administrative Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Secondary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Miscellaneous Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Tertiary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Tertiary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+					<ContactList>
+						<ContactType>Resource Report Contact</ContactType>
+						<Contacts>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Tertiary</ContactRank>
+							</Contact>
+							<Contact>
+								<Name>Doug Benjamin</Name>
+								<ContactRank>Tertiary</ContactRank>
+							</Contact>
+						</Contacts>
+					</ContactList>
+				</ContactLists>
+			</Resource>
+		</Resources>
+	</ResourceGroup>
+</ResourceSummary>
